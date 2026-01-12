@@ -26,7 +26,12 @@ npm-debug.*
 yarn-debug.*
 yarn-error.*
 
-# macOS
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Mac / Windows
 .DS_Store
 *.pem
 
@@ -41,3 +46,6 @@ app-example
 # generated native folders
 /ios
 /android
+
+# PHP
+/vendor/
